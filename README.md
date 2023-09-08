@@ -20,7 +20,7 @@ We also learnt on designing with users feedback insteaad of assumption and it in
   <li>LocalStorage</li>
   <li>Mock Servers</li>
 
-we have used JavaScript code to convert the currency of one country to another country. To use this service, we designed our own database and created our own mock-servers and used own API's, like 1) https://nearsteeluserdata.onrender.com/ and 2)https://mm-money-mingle.onrender.com/country_data. We will use these API's to get the live conversion rates and convert the corresponding amount.
+we have used JavaScript code to convert the currency of one country to another country. To use this service, we designed our own database and created our own mock-servers and used own API's, like https://mm-money-mingle.onrender.com/country_data. We will use these API's to get the live conversion rates and convert the corresponding amount.
 
 ---
 
