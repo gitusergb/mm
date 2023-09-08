@@ -153,7 +153,7 @@ const updatebalance = async (id, new_balance) => {
     // balance:{current_balance : new_balance,  before_balance: (new_balance+1000),  savings_amount: (1000),} ,
     balance:new_balance,
   };
-  let res = await fetch(`https://nearsteeluserdata.onrender.com/user/${id}`, {
+  let res = await fetch(`https://mm-money-mingle.onrender.com/user/${id}`, {
     method: "PATCH",
     body: JSON.stringify(dataToSent),
     headers: {
@@ -169,7 +169,7 @@ const updateActive = async (id, btn_text) => {
     let dataToSend = {
       status: false,
     };
-    let res = await fetch(`https://nearsteeluserdata.onrender.com/user/${id}`, {
+    let res = await fetch(`https://mm-money-mingle.onrender.com/user/${id}`, {
       method: "PATCH",
       body: JSON.stringify(dataToSend),
       headers: {
@@ -181,7 +181,7 @@ const updateActive = async (id, btn_text) => {
     let dataToSend2 = {
       status: true,
     };
-    let resagain = await fetch(`https://nearsteeluserdata.onrender.com/user/${id}`, {
+    let resagain = await fetch(`https://mm-money-mingle.onrender.com/user/${id}`, {
       method: "PATCH",
       body: JSON.stringify(dataToSend2),
       headers: {
@@ -195,7 +195,7 @@ const updateActive = async (id, btn_text) => {
 
 //remove Products
 const removeProduct = async (id) => {
-  let res = await fetch(`https://nearsteeluserdata.onrender.com/user/${id}`, {
+  let res = await fetch(`https://mm-money-mingle.onrender.com/user/${id}`, {
     method: "DELETE",
   });
   alert("Product Deleted!");
