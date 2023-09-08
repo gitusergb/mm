@@ -1,4 +1,7 @@
-const url = "https://nearsteeluserdata.onrender.com/user";
+// const url = "https://nearsteeluserdata.onrender.com/user";
+
+
+const url = "https://mm-money-mingle.onrender.com/user";
 
 let container=document.getElementById("seccont");
 let popup=document.getElementById("popup");

@@ -11,7 +11,7 @@ LogOutBtn.addEventListener('click',(e)=>{
 // log Out functionality End
 
 const getCustomerData = async () => {
-    let res = await fetch(`https://nearsteeluserdata.onrender.com/user`);
+    let res = await fetch(`https://mm-money-mingle.onrender.com/user`);
     let data = await res.json();
     console.log(data);
     appendCustomerData(data);

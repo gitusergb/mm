@@ -166,7 +166,8 @@ loginCloseBtn.addEventListener('click', () => {
 
 async function LoginFetchData() {
     try {
-        let res = await fetch(`https://nearsteeluserdata.onrender.com/user`);
+        // let res = await fetch(`https://nearsteeluserdata.onrender.com/user`);
+        let res = await fetch(`https://mm-money-mingle.onrender.com/user`);
         let data = await res.json();
         LogInform.addEventListener('submit', (e) => {
             e.preventDefault();

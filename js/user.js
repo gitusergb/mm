@@ -16,7 +16,9 @@ ShowuserName.innerText = `Hello, ${getUserCredentials[0].name}`
 ShowUser.innerText = getUserCredentials[0].name;
 // Show Name on navbar on profile menu section End
 
-const url = "https://nearsteeluserdata.onrender.com/user";
+// const url = "https://nearsteeluserdata.onrender.com/user";
+const url = "https://mm-money-mingle.onrender.com/user";
+
 const curUrl = "https://activitycurrencymoneymingle.onrender.com/country_data";
 
 let tableBod = document.getElementById("table");

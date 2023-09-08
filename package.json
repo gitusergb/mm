@@ -1,26 +1,27 @@
 {
-  "name": "near-steel-1499",
+  "name": "mm",
   "version": "1.0.0",
-  "description": "fw27_177-Tapish Agrawal\t\r fw27_081-Harshdeep Gill\t\r fw24_649-sankhadip ghosh\t\r fw27_074-Shivam Maurya\t\r fw27_265-Gauri Bidwai",
-  "main": "test.js",
+  "description": "MoneyMingle _mock server for MoneyMingle app  : fw27_177-Tapish Agrawal\t\r fw27_081-Harshdeep Gill\t\r fw24_649-sankhadip ghosh\t\r fw27_074-Shivam Maurya\t\r fw27_265-Gauri Bidwai",
+  "main": "server.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tapishagrawal/near-steel-1499.git"
+    "url": "git+https://github.com/gitusergb/mm"
   },
-  "author": "",
+  "author": "Gauri Bidwai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tapishagrawal/near-steel-1499/issues"
+    "url": "https://github.com/gitusergb/mm/issues"
   },
-  "homepage": "https://github.com/Tapishagrawal/near-steel-1499#readme",
+  "homepage": "https://github.com/gitusergb/mm#readme",
   "dependencies": {
     "json": "^11.0.0",
-    "json-server": "^0.17.3",
+    "json-server": "^0.17.1",
     "server": "^1.0.38"
   },
   "keywords": []
+
 }

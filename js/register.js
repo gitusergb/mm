@@ -27,7 +27,8 @@ const pass = document.querySelector("#res-pass")
 
 const form = document.querySelector("form");
 let formLocalData = JSON.parse(localStorage.getItem("form-data"))|| [];
-let userApiData = `https://nearsteeluserdata.onrender.com/user`;
+// let userApiData = `https://nearsteeluserdata.onrender.com/user`;
+let userApiData = `https://mm-money-mingle.onrender.com/user`;
 
 async function userFecthData(){
     try{

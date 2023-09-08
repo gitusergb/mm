@@ -28,7 +28,7 @@ let sa = document.getElementById("sa")
 
 async function fechData(){
     try{
-        let res = await fetch("https://nearsteeluserdata.onrender.com/user")
+        let res = await fetch("https://mm-money-mingle.onrender.com//user")
         let data = await res.json()
         var nData = data[0].transactions
         appendData(nData)

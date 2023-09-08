@@ -19,8 +19,8 @@ ShowUser.innerText = getUserCredentials[0].name;
 
 
 
-const url = "https://nearsteeluserdata.onrender.com/user";
-const curUrl = "https://activitycurrencymoneymingle.onrender.com/country_data";
+const url = "https://mm-money-mingle.onrender.com//user";
+const curUrl = "https://mm-money-mingle.onrender.com/country_data";
 let container=document.getElementById("seccont");
 let form=document.querySelector("form");
 let popup1 = document.getElementById("popup1");

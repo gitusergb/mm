@@ -20,7 +20,9 @@ ShowUser.innerText = getUserCredentials[0].name;
 let userid = userLogInStatus[0].userId
 
 
-const url = "https://nearsteeluserdata.onrender.com/user";
+// const url = "https://nearsteeluserdata.onrender.com/user";
+const url = "https://mm-money-mingle.onrender.com/user";
+
 const curUrl = "https://activitycurrencymoneymingle.onrender.com/country_data";
 let container=document.getElementById("seccont");
 let form=document.querySelector("form");
