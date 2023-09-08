@@ -14,7 +14,7 @@ We also learnt on designing with users feedback insteaad of assumption and it in
 
 <h1>Teck Stack :</h1>
 
- <li>HTML</li>
+  <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
   <li>LocalStorage</li>
@@ -23,17 +23,24 @@ We also learnt on designing with users feedback insteaad of assumption and it in
 we have used JavaScript code to convert the currency of one country to another country. To use this service, we designed our own database and created our own mock-servers and used own API's, like 1) https://nearsteeluserdata.onrender.com/ and 2)https://mm-money-mingle.onrender.com/country_data. We will use these API's to get the live conversion rates and convert the corresponding amount.
 
 ---
+
+
 # More Info :
 
 ### This website is made from CaseStudy of PayWise :  https://www.behance.net/gallery/168890935/PayWise-A-fintech-CaseStudy?tracking_source=search_projects%7Cfintech
+
+
+
 ### Netlify link : [MoneyMingle](https://funny-druid-6f2cdc.netlify.app/index.html)
 
 ## Output :
-![MoneyMingle](screenshot\home_page.png)
-![Screenshot (1)](screenshot\feedbackform.png)
-![Screenshot (2)](screenshot\card.png)
-![Screenshot (3)](screenshot\money_convertor.png)
-![Screenshot (4)](screenshot\activity.png)
+
+![MoneyMingle](https://i.ibb.co/zr4vYtQ/home-page.png)
+![Screenshot (1)](https://i.ibb.co/jkBtpzm/feedbackform.png)
+![Screenshot (2)](https://i.ibb.co/zJ4T63D/card.png)
+![Screenshot (3)](https://i.ibb.co/9Hqd3YK/money-convertor.png)
+![Screenshot (4)](https://i.ibb.co/LQpvdx1/activity.png)
+
 
 ---
 
