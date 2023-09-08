@@ -31,7 +31,7 @@ we have used JavaScript code to convert the currency of one country to another c
 
 
 
-### Netlify link : [MoneyMingle](https://funny-druid-6f2cdc.netlify.app/index.html)
+### Netlify link : [MoneyMingle](https://poetic-jalebi-91817f.netlify.app/)
 
 ## Output :
 

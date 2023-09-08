@@ -19,7 +19,7 @@ ShowUser.innerText = getUserCredentials[0].name;
 // const url = "https://nearsteeluserdata.onrender.com/user";
 const url = "https://mm-money-mingle.onrender.com/user";
 
-const curUrl = "https://activitycurrencymoneymingle.onrender.com/country_data";
+const curUrl = "https://mm-money-mingle.onrender.com/country_data";
 
 let tableBod = document.getElementById("table");
 let mainBalHead = document.getElementById("balance");

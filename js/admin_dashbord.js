@@ -222,7 +222,6 @@ const  gettransData = async () => {
   try {
     let res = await fetch(`https://mm-money-mingle.onrender.com/user`);
     let data = await res.json();
-
     console.log(data);
     appendtrans(data);
 
@@ -260,7 +259,7 @@ const sort_handle = async (query, value) => {
 
 
 
-const appendtrans = (data) => {
+const appendtrans=(data)=>{
   document.getElementById("transactions_tbody").innerHTML = "";
   data.forEach(({ id, mail, usrName, balance, transactions }) => {
     let tr = document.createElement("tr");
@@ -276,7 +275,6 @@ const appendtrans = (data) => {
 
     let inventory = document.createElement("td");
     let inv_span = document.createElement("table");
- 
 
     transactions.forEach(({date,type,name,gross,fee,net,userCurrency,convertedCurrency})=>{
       let t_ul = document.createElement("tbody");
@@ -325,7 +323,6 @@ const appendtrans = (data) => {
       updatebalance(id,new_balance);
       e.target.previousSibling.innerText = new_balance;
     };
-  
 
     // <i class="fa-solid fa-trash-can"></i>
     let del = document.createElement("td");
